@@ -1,0 +1,9 @@
+<layout version="1.0">
+
+    <adminhtml_contact_index>
+        <reference name="content">
+            <block type="florian_contact/monblock" name="monblock" template="florian_contact/afficher.phtml" />
+        </reference>
+    </adminhtml_contact_index>
+
+</layout>

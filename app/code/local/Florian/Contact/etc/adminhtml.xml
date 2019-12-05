@@ -1,0 +1,33 @@
+<config>
+    <menu>
+        <florian translate="title">
+            <title>FLORIAN MENU</title>
+            <sort_order>100</sort_order>
+            <children>
+                <contact translate="title">
+                    <title>contact</title>
+                    <sort_order>0</sort_order>
+                    <action>adminhtml/contact/index</action>
+                </contact>
+            </children>
+        </florian>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <florian translate="title">
+                        <title>FLORIAN MENU</title>
+                        <sort_order>100</sort_order>
+                        <children>
+                            <contact translate="title">
+                                <title>contact</title>
+                                <sort_order>0</sort_order>
+                            </contact>
+                        </children>
+                    </florian>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

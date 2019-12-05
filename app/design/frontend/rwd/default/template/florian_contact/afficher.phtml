@@ -1,0 +1,23 @@
+<form action="<?php echo Mage::getUrl('contact/index/save') ?>" method="post">
+    <fieldset>
+        <table>
+            <tr>
+                <td><label for="nom">Nom</label></td>
+                <td><input type="text" id="nom" name="name" /></td>
+            </tr>
+            <tr>
+                <td><label for="telephone">Numéro de téléphone</label></td>
+                <td><input type="text" id="telephone" name="telephone" /></td>
+            </tr>
+            <tr>
+                <td><label for="mail">Adresse e-mail</label></td>
+                <td><input type="text" id="mail" name="mail" /></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right;"><button type="submit" value="1">Enregistrer</button></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+
+<?php echo $this->methodblock(); ?>

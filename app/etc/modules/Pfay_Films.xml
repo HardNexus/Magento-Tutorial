@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Pfay_Films>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Pfay_Films>
+    </modules>
+</config>

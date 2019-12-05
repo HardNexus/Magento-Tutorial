@@ -1,0 +1,18 @@
+<h1>Hello World</h1>
+<p>ceci est mon fichier de template et ca c'est le résultat de ta méthode :</p>
+<?php echo $this->methodblock(); ?>
+
+<form action="<?php echo Mage::getUrl('adminhtml/film/index') ?>" method="post">
+	<fieldset>
+		<ul>
+			<li>
+				<label for="nom">Name</label>
+				<input type="text" id="name" name="name" />
+			</li>
+			<li>
+				<input name="form_key" type="hidden" value="<?php echo Mage::getSingleton('core/session')->getFormKey() ?>" />
+				<input type="submit" value="Enregistrer" />
+			</li>
+		</ul>
+	</fieldset>
+</form>

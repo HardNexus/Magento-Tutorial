@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Florian_Contact>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Florian_Contact>
+    </modules>
+</config>

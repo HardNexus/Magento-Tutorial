@@ -1,0 +1,9 @@
+<layout version="1.0">
+
+    <adminhtml_film_index>
+        <reference name="content">
+            <block type="pfay_films/monblock" name="monblock" template="pfay_films/afficher.phtml" />
+        </reference>
+    </adminhtml_film_index>
+
+</layout>
